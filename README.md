@@ -20,7 +20,7 @@ sudo systemctl restart nginx
 find . -name "node_modules" -type d -prune -exec rm -rf '{}' +
 ```
 
-## kill Process
+## kill process
 
 ```
 sudo lsof -i :Port
@@ -29,3 +29,11 @@ sudo lsof -i :Port
 ```
 sudo kill -9 port
 ```
+
+## Node process
+
+```
+ps aux | grep node
+```
+
+
