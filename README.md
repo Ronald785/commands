@@ -1,2 +1,31 @@
-# commands
-Repositório desenvolvido para otimizar meu fluxo de trabalho como programador, contendo uma coleção dos principais comandos e scripts que utilizo no dia a dia.
+# Comandos
+
+## Nginx
+
+```
+sudo systemctl stop nginx
+```
+
+```
+sudo systemctl start nginx
+```
+
+```
+sudo systemctl restart nginx
+```
+
+## Excluir as pastas node_modules em todos os subdiretórios.
+
+```
+find . -name "node_modules" -type d -prune -exec rm -rf '{}' +
+```
+
+## kill Process
+
+```
+sudo lsof -i :Port
+```
+
+```
+sudo kill -9 port
+```
