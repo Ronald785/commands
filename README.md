@@ -36,4 +36,14 @@ sudo kill -9 port
 ps aux | grep node
 ```
 
+## Compactar pasta 
+```
+tar -czvf folder.tar.gz folder
+```
+
+## Descompactar pasta 
+```
+tar -xzvf folder.tar.gz folder
+```
+
 
